@@ -1,0 +1,198 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #f4f8fb url(img/logbg.jpg) repeat-x left top;
+    position: relative;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    line-height: 12px;
+    text-align: justify;
+    padding-left: 0px;
+}
+
+.wrong {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #c0392b;
+    text-align: left;
+    font-weight: bold;
+    padding: 5px 5px 5px 25px;
+    border: #e74c3c thin solid;
+    background: #fdecea url('img/wrong.png') left center no-repeat;
+}
+
+.success {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #2e7d32;
+    text-align: left;
+    font-weight: bold;
+    padding: 5px 5px 5px 25px;
+    border: #388e3c thin solid;
+    background: #e8f5e9 url('img/tick.png') left center no-repeat;
+}
+
+.button_example {
+    border: 1px solid #2c7a7b;
+    border-radius: 3px;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    text-decoration: none;
+    display: inline-block;
+    text-shadow: -1px -1px 0 rgba(0,0,0,0.2);
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #38b2ac;
+    background-image: linear-gradient(to bottom, #38b2ac, #2c7a7b);
+}
+
+.button_example:hover {
+    border-color: #285e61;
+    background-color: #319795;
+    background-image: linear-gradient(to bottom, #319795, #234e52);
+}
+
+/* FIXED and BEAUTIFIED logoutlink/loginlink */
+#logoutlink, #loginlink {
+    background: #2563eb;
+    border-radius: 20px;
+    padding: 5px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    transition: background-color 0.3s ease;
+}
+
+#logoutlink:hover, #loginlink:hover {
+    background-color: #1e40af;
+}
+
+#logoutlink a#log, #loginlink a#log {
+    color: white;
+    text-decoration: none;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+#logoutlink a#log:hover, #loginlink a#log:hover {
+    color: #ffe082;
+}
+/* End of Logout Link Styling */
+
+.error {
+    text-align: center;
+    color: #e63946;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+#sample {
+    background: #f7fafc url(img/bg.jpg) repeat-x left top;
+    height: 130px;
+}
+
+#insides {
+    border: 1px solid #4a90e2;
+}
+
+h1, h2, h3 {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+    color: #2c5282;
+}
+
+a {
+    text-decoration: none;
+    color: #3182ce;
+}
+
+#log a:link {
+    text-decoration: underline;
+    color: #d6336c;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #d6336c;
+}
+
+#Wrapper {
+    width: 850px;
+    height: 850px;
+    margin: auto;
+    border: 1px solid #b5b681;
+}
+
+#Header {
+    width: 750px;
+    height: 0px;
+    margin: 0 auto;
+    background: url(img/Header.jpg);
+}
+
+#Menu {
+    width: 750px;
+    height: 47px;
+    margin: 0 auto;
+    padding: 0;
+    background: url(img/Menu.jpg);
+}
+
+#Menu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    line-height: normal;
+}
+
+#Menu li {
+    float: left;
+}
+
+#Menu a {
+    display: block;
+    width: 80px;
+    height: 31px;
+    padding-top: 16px;
+    text-decoration: none;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    border: none;
+    color: white;
+}
+
+#Menu a:hover {
+    background-image: url(img/Hover.jpg);
+    color: #2a4365;
+}
+
+#Menu .active a {
+    background: #edf2f7 url(img/Active.jpg) repeat-x left bottom;
+    padding-left: 0;
+    color: #2a4365;
+}
+
+.para1_text {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: justify;
+    padding-left: 0px;
+}
+
+#Footer {
+    padding-top: 138px;
+    height: 50px;
+    margin: 0 auto;
+    margin-top: 12px;
+    padding: 0px 0 15px 0;
+    background: #e0f2fe url(img/ng.jpg) repeat-x left bottom;
+    border-top: 1px solid #cbd5e0;
+    text-align: center;
+}
